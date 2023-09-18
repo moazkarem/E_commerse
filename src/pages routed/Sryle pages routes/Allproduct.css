@@ -1,0 +1,89 @@
+* {
+  font-family: sans-serif;
+}
+.carde-prod {
+  border: none;
+  background-color: #f5f6f6;
+}
+.fav {
+  font-size: 18px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #f00;
+}
+.fav:hover {
+  cursor: pointer;
+}
+.name-prod {
+  color: #003d29;
+  font-size: 12px;
+  font-weight: 700;
+}
+.titl-prod {
+  font-size: 12px;
+  color: #767676;
+}
+.carde-prod {
+  background-color: #fff;
+  max-height: 437px !important;
+}
+.inc-decrease button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aaa;
+  height: 30px;
+  text-align: center !important;
+  line-height: 15px;
+  font-size: 18px;
+}
+.inc-decrease button:hover {
+  background-color: #f00;
+  color: #fff;
+  border: 1px solid #fff !important;
+}
+.card-prode-btn {
+  background-color: #003d29;
+  color: #fff;
+  border: none;
+  font-size: 10px;
+  width: 127px;
+}
+.card-prode-btn:hover {
+  background-color: #003d29 !important;
+}
+.img-prod {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.img-prod:hover {
+  transform: scale(0.7);
+}
+.prod-card {
+  width: 22rem !important;
+  margin-left: 10px !important;
+}
+@media only screen and (max-width: 600px) {
+  .names-discount h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .carde-prod {
+    width: 29rem !important;
+    margin-left: 10px !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .names-discount h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .carde-prod {
+    width: 21.5rem !important;
+    margin-left: 10px !important;
+  }
+}

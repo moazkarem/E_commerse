@@ -1,0 +1,13 @@
+.filterate {
+  background-color: #f5f6f6;
+}
+.btn-filter button {
+  border-radius: 20px;
+  background-color: #003d29;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btns {
+  background-color: #fff;
+}

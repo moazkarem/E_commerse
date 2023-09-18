@@ -1,0 +1,93 @@
+.side-bar {
+  background-color: #123;
+  width: 17%;
+  height: 700vh;
+  position: fixed;
+}
+.side-bar span {
+  color: #fff;
+}
+.moaz-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name-me {
+  font-size: 16px;
+  font-weight: 700;
+}
+.entery-div:hover {
+  cursor: pointer;
+  background-color: #ffffff55;
+  border-radius: 15px;
+  color: #fff;
+}
+.icone {
+  font-size: 25px;
+  font-weight: 900;
+}
+.log-out {
+  width: 160px;
+  line-height: 15px;
+  height: 30px;
+  border: none;
+}
+.content-dash {
+  margin-left: 17%;
+  background-color: #000;
+  width: 83%;
+  min-height: 100vh;
+}
+.first-sec-dash {
+  background-color: #0481ff;
+  border-radius: 8px;
+}
+.first-sec-dash span {
+  color: #fff;
+}
+.item {
+  background-color: #112233;
+  width: 24%;
+  border-radius: 8px;
+  height: 150px;
+}
+.item span {
+  color: #fff;
+}
+.item:hover {
+  background-color: #ffffff55;
+}
+table tr th {
+  background-color: #0481ff !important;
+  color: #fff;
+
+  text-align: center;
+
+  text-transform: capitalize;
+  border-left: 3px #000 solid;
+  border-bottom: #000 3px solid !important;
+}
+table tr td {
+  border-bottom: #000 2px solid !important;
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: #123 !important;
+  border-left: 3px #000 solid;
+}
+.img-prod-admin {
+  width: 40px;
+  height: 40px;
+  background-color: #000 !important;
+  border-radius: 50%;
+}
+.swal2-confirm {
+  margin-top: 1rem !important;
+  background-color: rgb(25, 135, 84) !important;
+  border: none !important;
+  outline: none !important;
+}
+.swal2-confirm:focus {
+  border: none !important;
+  outline: none !important;
+}

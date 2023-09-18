@@ -1,0 +1,98 @@
+.main-sec {
+  background-image: url(../assets/imgs/Landing/landinBg1.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.yello-img {
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  background-color: transparent;
+}
+.bag-imf {
+  position: absolute;
+  right: 122px;
+  top: -30px;
+}
+.travel-bag {
+  position: absolute;
+  right: 420px;
+  top: 30px;
+}
+.elec-img {
+  position: absolute;
+  right: 150px;
+  top: 250px;
+}
+.titles {
+  width: 50%;
+  height: 70vh;
+}
+.t-1 {
+  color: #003d29;
+  font-weight: bold;
+  font-size: 55px;
+}
+.t-2 {
+  font-size: 16px;
+  color: #000;
+}
+.btn-more {
+  background-color: #003d29;
+  color: #fff;
+  border-radius: 25px;
+  width: 155px;
+  border: none;
+  outline: none;
+}
+.btn-more:hover {
+  background-color: #003d29;
+}
+@media only screen and (max-width: 600px) {
+  .bag-imf,
+  .travel-bag,
+  .elec-img,
+  .yello-img {
+    display: none;
+  }
+  .titles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .t-1 {
+    font-size: 35px;
+    text-align: center;
+    margin-right: 1.5rem !important;
+  }
+  .t-2 {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 1.5rem !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .bag-imf,
+  .travel-bag,
+  .elec-img,
+  .yello-img {
+    display: none;
+  }
+  .titles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}

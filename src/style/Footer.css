@@ -1,0 +1,57 @@
+.name-project {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+.img-pay {
+  border: solid 1px #aaa;
+  border-radius: 0.5rem;
+  width: 70px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.img-pay:hover {
+  transform: scale(1.1);
+}
+.helpe:hover {
+  color: black;
+  margin-left: 0;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+ul li:hover {
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+}
+.endfoot h4 {
+  color: black;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .p-foot {
+    font-size: 18px;
+  }
+  ul li {
+    list-style: none;
+    font-size: 16px;
+  }
+  .endfoot {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .p-foot {
+    font-size: 18px;
+  }
+  ul li {
+    list-style: none;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,48 @@
+.nav-small {
+  height: 30px !important;
+  background-color: red;
+}
+.d-btn {
+  width: 55px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 15px;
+  background-color: #003d29;
+  border: none;
+  outline: none;
+  color: #fff !important;
+}
+.d-btn:hover {
+  background-color: #003d29 !important;
+}
+.d-btn2:hover {
+  background-color: #003d29 !important;
+}
+.d-btn2 {
+  text-align: center;
+  line-height: 15px;
+  height: 30px;
+  background-color: #003d29;
+  border: none;
+  outline: none;
+  color: #fff !important;
+}
+.all-content {
+  background-color: #003d29;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+}
+.drop-items {
+  background-color: r;
+  width: 60px !important;
+}
+.linke {
+  color: #003d29;
+  font-size: 16px;
+  border-bottom: 2px solid #003d29;
+  font-weight: bold;
+}
+.linke:hover {
+  background-color: gray;
+}

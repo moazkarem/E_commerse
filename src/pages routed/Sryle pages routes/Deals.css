@@ -1,0 +1,12 @@
+.imge img {
+  width: 40px;
+  height: 40px;
+}
+.control-fav td {
+  font-size: 14px;
+  text-align: center;
+}
+.text-head {
+  text-align: center !important;
+  color: #003d29;
+}

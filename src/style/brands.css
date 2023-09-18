@@ -1,0 +1,35 @@
+.cont-brand {
+  width: 347px;
+  height: 113px;
+  background-color: #f5f6f6;
+  border-radius: 14px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.cont-brand:hover {
+  border: 1px solid #000;
+  transform: scale(1.1);
+}
+.omg-brand {
+  width: 70px;
+  height: 70px;
+}
+.brand-titles h1 {
+  font-size: 23px;
+  color: black;
+}
+.brand-titles p {
+  font-size: 14px;
+  color: #767676;
+}
+.names-brand h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .names-brand h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
